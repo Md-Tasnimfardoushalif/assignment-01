@@ -1,0 +1,86 @@
+/*1. Google Fonts  */
+
+/* 2. Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3. Global Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #1f2937;
+    line-height: 1.6;
+}
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* Links  */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Lists */
+ul {
+    list-style:none;
+}
+/* Buttons */
+button {
+    font-family: inherit;
+}
+/* End of Global style  */
+
+/* 4. Reusable Components  */
+ /* Button styling  */
+ .c-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+/* 5. Header & Navbar  */
+header {
+    background-color: #ffffff;
+    padding: 15px 60px;
+}
+.logo img {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Menu bar styling  */
+.nav-links ul {
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: #575757;
+    font-weight: 500;
+
+}
+.nav-links a:hover {
+    color: #2563eb;
+}
+
+
+/* 6. Hero Section  */
+
+/* 7. Speakers Section  */
+
+/* 8. Pricing Section  */
+
+/* 9. AI Section  */
+
+/* 10. Footer  */
