@@ -180,8 +180,123 @@ nav {
     color: #575757;
 }
 /* End of speakers section  */
+
 /* 8. Pricing Section  */
 
+#pricing {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+.pricing-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pricing-title h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.pricing-header p{
+    color:#6b7280;
+    font-size:16px;
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+.pricing-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 32px;
+}
+.featured {
+    background-color: #0d1b2a;
+    color: #ffffff;
+}
+.plan-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #7b7b7b;
+    letter-spacing: 1px;
+}
+.featured .plan-name {
+    color: #93c5fd;
+}
+.plan-price {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.plan-duration {
+    color: #888;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.featured .plan-duration {
+    color: #868d94;
+}
+.pricing-card hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 20px 0;
+}
+.featured hr {
+    border-top-color: rgba(255, 255, 255, 0.15);
+}
+.plan-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+.plan-feature li {
+    font-size: 12px;
+    color: #4b5563;
+}
+.featured .plan-feature li {
+    color: #e5e7eb;
+}
+.plan-feature {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.plan-feature li {
+    margin-bottom: 12px;
+}
+
+.plan-feature li::marker {
+    color: #2563eb;
+}
+.plan-btn {
+    margin-top: auto;
+
+}
+.outline-btn {
+    width: 100%;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pricing-card .c-btn,
+.pricing-card .outline-btn {
+    width: 100%;
+}
+.pricing-card {
+    transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+/* End of pricing section  */
 /* 9. AI Section  */
 
 /* 10. Footer  */
